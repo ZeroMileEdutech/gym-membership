@@ -33,10 +33,10 @@
             <?= $costomer->name ?>
         </td>
          <td>
-            <?= $this->Html->link($costomer->email, ['action' => 'view', $costomer->id]) ?>
+            <?= $costomer->email ?>
         </td>
        <td>
-            <?= $this->Html->link($costomer->mobile, ['action' => 'view', $costomer->id]) ?>
+            <?= $costomer->mobile ?>
         </td>
 
 
